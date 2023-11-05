@@ -1,0 +1,6 @@
+
+
+@keyframes bottommark {
+    0%{border-bottom: 2px red solid;}
+    50%{border-bottom: 2px rgb(55, 255, 0) solid;}
+}
