@@ -1,0 +1,247 @@
+/* .small-search-bar:focus-within, */
+.small-search-bar form:focus-within,
+.small-search-bar input:focus-within {
+    width: 95%;
+}
+
+.small-search-bar form,
+.small-search-bar input {
+    width: 75%;
+}
+
+.small-search-bar form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0px;
+    border-radius: 32px;
+    border: 2px transparent solid;
+    background-color: #e6e6e6;
+}
+
+.search-input-small,#search-input-small {
+    background-color: transparent;
+}
+
+.small-search-bar input {
+    display: block;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+.small-search-bar form:hover {
+    background-color: #fff;
+    border: 2px rgb(0, 255, 60) solid;
+}
+
+.small-search-bar form:focus-within {
+    box-shadow: 0px 0px 10px 0px rgba(0, 4, 255, 0.221);
+    background-color: #fff;
+    border: 2px rgb(0, 255, 60) solid;
+}
+
+
+
+
+.hero-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+}
+
+.head-title {
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.head-subtitle {
+    width: 60%;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+/* category submit form */
+.category-submit-form-cont,
+.site-submit-form-cont {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
+    background-color: #f3f4fe;
+    width: fit-content;
+    padding: 48px;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 0px 0px 50px -5px #dddee9;
+}
+
+.category-submit-form-cont form,
+.site-submit-form-cont form {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.form-collapse {
+    padding: 8px 12px;
+    background: #ffffff;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 100px;
+    box-shadow: -2px 5px 8px 0px #0000002e;
+    position: relative;
+}
+
+.ctgry-submit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.ctgry-title,
+.new-site {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-site {
+    gap: 16px;
+}
+
+.cate-title {
+    line-height: auto;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#cate-title-input {
+    border: 2px transparent solid;
+    outline: none;
+    padding: 16px;
+    width: auto;
+    border-radius: 8px;
+}
+
+#cate-title-input:focus-within {
+    border: #8bb0ff 2px solid;
+}
+
+#ui-submit {
+    border: none;
+    outline: none;
+    padding: 16px;
+    width: auto;
+    border-radius: 8px;
+    background: #3395FF;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+#ui-submit:hover {
+    background: #1988ff;
+}
+
+.ctrgy-user-img-upload {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.upload-cover-cont,
+.upload-cateicon-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12px 32px 32px 32px;
+    border-radius: 24px;
+    background: #fbfcff;
+    box-shadow: 0px 0px 20px -5px #dddee9;
+}
+
+.up-cov-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.uc-title {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.uc-subtitle {
+    font-size: 11px;
+    line-height: 19px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.uc-subtitle-2 {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400
+}
+
+.dragNdrop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px #b9b9b9 dashed;
+    border-radius: 16px;
+    padding: 20px 12px;
+}
+
+
+
+/* browse categories */
+.browse-categories-cont {
+    padding-left: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.categories-title {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 48px;
+}
+
+.ctgrs-heading {
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+.ctgrs-heading::first-letter {
+    text-transform: capitalize;
+}
